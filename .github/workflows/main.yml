@@ -1,0 +1,27 @@
+name: Docker Image Skopeo Copy
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup skopeo
+      run: apt-get -y install skopeo
+    - name: Copy images
+      run: bash skopeo.sh
+      env: 
+        KUBERNETES_VERSION: v1.28.15
+        KUBESPHERE_VERSION: v4.1.2
+        IMAGES_LIST_FILE: images-list-mirrors-kubernetes-v1.28.15-kubesphere-v4.1.2.txt
+        REGISTRY: ghcr.io
+        REPOSITORY: library
+        GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}

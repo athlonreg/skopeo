@@ -1,0 +1,166 @@
+## Kubernetes Images
+## kubernetes
+swr.cn-north-1.myhuaweicloud.com/geovis/cni:v3.27.4
+swr.cn-north-1.myhuaweicloud.com/geovis/coredns:1.9.3
+swr.cn-north-1.myhuaweicloud.com/geovis/k8s-dns-node-cache:1.22.20
+swr.cn-north-1.myhuaweicloud.com/geovis/kube-apiserver:v1.28.15
+swr.cn-north-1.myhuaweicloud.com/geovis/kube-controller-manager:v1.28.15
+swr.cn-north-1.myhuaweicloud.com/geovis/kube-controllers:v3.27.4
+swr.cn-north-1.myhuaweicloud.com/geovis/kube-proxy:v1.28.15
+swr.cn-north-1.myhuaweicloud.com/geovis/kube-scheduler:v1.28.15
+swr.cn-north-1.myhuaweicloud.com/geovis/node:v3.27.4
+swr.cn-north-1.myhuaweicloud.com/geovis/pause:3.9
+swr.cn-north-1.myhuaweicloud.com/geovis/pod2daemon-flexvol:v3.27.4
+## KubeSphere Images Mirror
+## ks-core
+swr.cn-north-1.myhuaweicloud.com/geovis/ks-apiserver:v4.1.2
+swr.cn-north-1.myhuaweicloud.com/geovis/ks-console:v4.1.2
+swr.cn-north-1.myhuaweicloud.com/geovis/ks-controller-manager:v4.1.2
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.16
+swr.cn-north-1.myhuaweicloud.com/geovis/redis:7.2.4-alpine
+swr.cn-north-1.myhuaweicloud.com/geovis/haproxy:2.9.6-alpine
+swr.cn-north-1.myhuaweicloud.com/geovis/ks-extensions-museum:v1.1.2
+## devops
+swr.cn-north-1.myhuaweicloud.com/geovis/devops-apiserver:v4.1.2
+swr.cn-north-1.myhuaweicloud.com/geovis/devops-controller:v4.1.2
+swr.cn-north-1.myhuaweicloud.com/geovis/devops-tools:v4.1.2
+swr.cn-north-1.myhuaweicloud.com/geovis/devops-jenkins:v4.1.2-2.346.3
+swr.cn-north-1.myhuaweicloud.com/geovis/inbound-agent:4.10-2
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-base:v3.2.2
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-nodejs:v3.2.0
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-maven:v3.2.0
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-maven:v3.2.1-jdk11
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-python:v3.2.0
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-go:v3.2.0
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-go:v3.2.2-1.16
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-go:v3.2.2-1.17
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-go:v3.2.2-1.18
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-base:v3.2.2-podman
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-nodejs:v3.2.0-podman
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-maven:v3.2.0-podman
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-maven:v3.2.1-jdk11-podman
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-python:v3.2.0-podman
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-go:v3.2.0-podman
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-go:v3.2.2-1.16-podman
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-go:v3.2.2-1.17-podman
+swr.cn-north-1.myhuaweicloud.com/geovis/builder-go:v3.2.2-1.18-podman
+swr.cn-north-1.myhuaweicloud.com/geovis/argocd:v2.3.3
+swr.cn-north-1.myhuaweicloud.com/geovis/argocd-applicationset:v0.4.1
+swr.cn-north-1.myhuaweicloud.com/geovis/dex:v2.30.2
+swr.cn-north-1.myhuaweicloud.com/geovis/redis:6.2.6-alpine
+## gatekeeper
+swr.cn-north-1.myhuaweicloud.com/geovis/gatekeeper-extension-apiserver:v1.0.1
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.12
+swr.cn-north-1.myhuaweicloud.com/geovis/gatekeeper:v3.14.0
+swr.cn-north-1.myhuaweicloud.com/geovis/gatekeeper-crds:v3.14.0
+## gateway
+swr.cn-north-1.myhuaweicloud.com/geovis/nginx-ingress-controller:v1.4.0
+swr.cn-north-1.myhuaweicloud.com/geovis/gateway-apiserver:v1.0.2
+swr.cn-north-1.myhuaweicloud.com/geovis/gateway-controller-manager:v1.0.2
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.16
+## grafana
+swr.cn-north-1.myhuaweicloud.com/geovis/curl:7.85.0
+swr.cn-north-1.myhuaweicloud.com/geovis/grafana:10.4.1
+swr.cn-north-1.myhuaweicloud.com/geovis/busybox:1.31.1
+## kubeedge
+swr.cn-north-1.myhuaweicloud.com/geovis/iptables-manager:v1.13.1
+swr.cn-north-1.myhuaweicloud.com/geovis/cloudcore:v1.13.1
+swr.cn-north-1.myhuaweicloud.com/geovis/controller-manager:v1.13.1
+swr.cn-north-1.myhuaweicloud.com/geovis/kubeedge-proxy:v0.4.1
+## kubefed
+swr.cn-north-1.myhuaweicloud.com/geovis/kubefed-extension:v1.0.0
+swr.cn-north-1.myhuaweicloud.com/geovis/kubefed:v0.8.1
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.4
+## loki
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.12
+swr.cn-north-1.myhuaweicloud.com/geovis/loki:3.0.0
+swr.cn-north-1.myhuaweicloud.com/geovis/loki-helm-test:ewelch-distributed-helm-chart-17db5ee
+swr.cn-north-1.myhuaweicloud.com/geovis/loki-canary:3.0.0
+swr.cn-north-1.myhuaweicloud.com/geovis/nginx-unprivileged:1.24-alpine
+swr.cn-north-1.myhuaweicloud.com/geovis/memcached:1.6.23-alpine
+swr.cn-north-1.myhuaweicloud.com/geovis/memcached-exporter:v0.14.2
+swr.cn-north-1.myhuaweicloud.com/geovis/k8s-sidecar:1.24.3
+swr.cn-north-1.myhuaweicloud.com/geovis/minio:RELEASE.2022-09-17T00-09-45Z
+swr.cn-north-1.myhuaweicloud.com/geovis/mc:RELEASE.2022-09-16T09-16-47Z
+## metrics-server
+swr.cn-north-1.myhuaweicloud.com/geovis/metrics-server:v0.7.0
+swr.cn-north-1.myhuaweicloud.com/geovis/addon-resizer:1.8.20
+## network
+swr.cn-north-1.myhuaweicloud.com/geovis/network-extension-apiserver:v1.1.0
+swr.cn-north-1.myhuaweicloud.com/geovis/network-extension-controller:v1.1.0
+## openpitrix
+swr.cn-north-1.myhuaweicloud.com/geovis/apps-manage:v2.0.1
+## opensearch
+swr.cn-north-1.myhuaweicloud.com/geovis/opensearch:2.8.0
+swr.cn-north-1.myhuaweicloud.com/geovis/busybox:1.35.0
+swr.cn-north-1.myhuaweicloud.com/geovis/opensearch-curator:v0.0.5
+swr.cn-north-1.myhuaweicloud.com/geovis/opensearch-dashboards:2.8.0
+## servicemesh
+swr.cn-north-1.myhuaweicloud.com/geovis/pilot:1.16.5
+swr.cn-north-1.myhuaweicloud.com/geovis/proxyv2:1.16.5
+swr.cn-north-1.myhuaweicloud.com/geovis/istioctl:1.16.5
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.4
+swr.cn-north-1.myhuaweicloud.com/geovis/kiali-operator:v1.59.1
+swr.cn-north-1.myhuaweicloud.com/geovis/kiali:v1.59
+swr.cn-north-1.myhuaweicloud.com/geovis/jaeger-operator:1.35.0
+swr.cn-north-1.myhuaweicloud.com/geovis/jaeger-agent:1.35
+swr.cn-north-1.myhuaweicloud.com/geovis/jaeger-collector:1.35
+swr.cn-north-1.myhuaweicloud.com/geovis/jaeger-query:1.35
+swr.cn-north-1.myhuaweicloud.com/geovis/jaeger-es-index-cleaner:1.35
+swr.cn-north-1.myhuaweicloud.com/geovis/servicemesh-apiserver:v0.1.0
+swr.cn-north-1.myhuaweicloud.com/geovis/servicemesh-controller-manager:v0.1.0
+## storage-utils
+swr.cn-north-1.myhuaweicloud.com/geovis/storageclass-accessor:v0.2.5
+swr.cn-north-1.myhuaweicloud.com/geovis/snapshot-controller:v4.2.1
+swr.cn-north-1.myhuaweicloud.com/geovis/snapshotclass-controller:v0.0.1
+swr.cn-north-1.myhuaweicloud.com/geovis/pvc-autoresizer:v0.3.1
+## tower
+swr.cn-north-1.myhuaweicloud.com/geovis/tower:v0.2.1
+swr.cn-north-1.myhuaweicloud.com/geovis/tower-extension:v1.0.0
+## vector
+swr.cn-north-1.myhuaweicloud.com/geovis/vector:0.39.0-debian
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.12
+swr.cn-north-1.myhuaweicloud.com/geovis/vector-config:v0.2.1
+## whizard-alerting
+swr.cn-north-1.myhuaweicloud.com/geovis/whizard-alerting-apiserver:v1.0.2
+swr.cn-north-1.myhuaweicloud.com/geovis/whizard-alerting-controller-manager:v1.0.2
+swr.cn-north-1.myhuaweicloud.com/geovis/thanos:v0.36.1
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.12
+swr.cn-north-1.myhuaweicloud.com/geovis/cortex-tenant:v1.12.5
+swr.cn-north-1.myhuaweicloud.com/geovis/prometheus-config-reloader:v0.75.1
+## whizard-events
+swr.cn-north-1.myhuaweicloud.com/geovis/kube-events-exporter:v0.8.0
+swr.cn-north-1.myhuaweicloud.com/geovis/configmap-reload:v0.9.0
+## whizard-logging
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.12
+swr.cn-north-1.myhuaweicloud.com/geovis/log-sidecar-injector:v1.3.0
+swr.cn-north-1.myhuaweicloud.com/geovis/configmap-reload:v0.9.0
+swr.cn-north-1.myhuaweicloud.com/geovis/filebeat:6.7.0
+swr.cn-north-1.myhuaweicloud.com/geovis/vector:0.39.0-debian
+swr.cn-north-1.myhuaweicloud.com/geovis/alpine:3.14
+## whizard-monitoring
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.12
+swr.cn-north-1.myhuaweicloud.com/geovis/kube-state-metrics:v2.12.0
+swr.cn-north-1.myhuaweicloud.com/geovis/kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6
+swr.cn-north-1.myhuaweicloud.com/geovis/thanos:v0.36.1
+swr.cn-north-1.myhuaweicloud.com/geovis/kube-rbac-proxy:v0.18.0
+swr.cn-north-1.myhuaweicloud.com/geovis/prometheus-config-reloader:v0.75.1
+swr.cn-north-1.myhuaweicloud.com/geovis/prometheus-operator:v0.75.1
+swr.cn-north-1.myhuaweicloud.com/geovis/node-exporter:v1.8.1
+swr.cn-north-1.myhuaweicloud.com/geovis/prometheus:v2.51.2
+swr.cn-north-1.myhuaweicloud.com/geovis/dcgm-exporter:3.3.5-3.4.0-ubuntu22.04
+swr.cn-north-1.myhuaweicloud.com/geovis/process-exporter:0.5.0
+swr.cn-north-1.myhuaweicloud.com/geovis/nginx-unprivileged:1.24
+swr.cn-north-1.myhuaweicloud.com/geovis/calico-exporter:v0.3.0
+swr.cn-north-1.myhuaweicloud.com/geovis/whizard-monitoring-helm-init:v0.1.0
+## whizard-notification
+swr.cn-north-1.myhuaweicloud.com/geovis/kubectl:v1.27.12
+swr.cn-north-1.myhuaweicloud.com/geovis/kube-rbac-proxy:v0.11.0
+swr.cn-north-1.myhuaweicloud.com/geovis/alertmanager-proxy:v0.2.0
+swr.cn-north-1.myhuaweicloud.com/geovis/notification-manager-operator:v2.5.2
+swr.cn-north-1.myhuaweicloud.com/geovis/notification-manager:v2.5.2
+swr.cn-north-1.myhuaweicloud.com/geovis/notification-tenant-sidecar:v4.0.2
+swr.cn-north-1.myhuaweicloud.com/geovis/alertmanager:v0.27.0
+swr.cn-north-1.myhuaweicloud.com/geovis/prometheus-config-reloader:v0.75.1
+## whizard-telemetry
+swr.cn-north-1.myhuaweicloud.com/geovis/whizard-telemetry-apiserver:v1.2.2
