@@ -23,7 +23,7 @@ do
 		DEST=docker://$REGISTRY/$REPOSITORY/$IMAGE_NAME:$IMAGE_TAG
 		echo
 		sleep 2
-		if skopeo copy --dest-creds $GITHUB_TOKEN --multi-arch all --override-os linux ${SRC} ${DEST}
+		if skopeo copy --src-creds $HUAWEI_TOKEN --dest-creds $GITHUB_TOKEN --multi-arch all --override-os linux ${SRC} ${DEST}
 		then
 		  echo "Process: sync $SRC to $DEST successfully"
 		else
