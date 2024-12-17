@@ -25,3 +25,4 @@ jobs:
         REGISTRY: ghcr.io
         REPOSITORY: library
         GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}
+        HUAWEI_TOKEN: ${{ secrets.HUAWEI_TOKEN }}
