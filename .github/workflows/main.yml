@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Setup skopeo
-      run: apt-get -y install skopeo
+      run: sudo apt-get update && sudo apt-get -y install skopeo
     - name: Copy images
       run: bash skopeo.sh
       env: 
