@@ -23,6 +23,6 @@ jobs:
         KUBESPHERE_VERSION: v4.1.2
         IMAGES_LIST_FILE: images-list-mirrors-kubernetes-v1.28.15-kubesphere-v4.1.2.txt
         REGISTRY: ghcr.io
-        REPOSITORY: library
+        REPOSITORY: athlonreg
         GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}
         HUAWEI_TOKEN: ${{ secrets.HUAWEI_TOKEN }}
