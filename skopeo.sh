@@ -7,7 +7,7 @@ KUBESPHERE_VERSION=${KUBESPHERE_VERSION:-v4.1.2}
 IMAGES_LIST_FILE=${IMAGES_LIST_FILE:-images-list-mirrors-kubernetes-${KUBERNETES_VERSION}-kubesphere-${KUBESPHERE_VERSION}.txt}
 
 REGISTRY=${REGISTRY:-ghcr.io}
-REPOSITORY=${REPOSITORY:-library}
+REPOSITORY=${REPOSITORY:-athlonreg}
 GITHUB_TOKEN=${GITHUB_TOKEN:-token}
 
 for GROUP in $(cat ${IMAGES_LIST_FILE} | grep "##" | awk '{print $2}' | grep -vE "KubeSphere|Kubernetes")
